@@ -81,7 +81,7 @@ while should_work == 'on':
                 if flavors != "espresso":
                     milk = milk-MENU[flavors]["ingredients"]["milk"]
                 coffee = coffee - MENU[flavors]["ingredients"]["coffee"]
-                money = cf
+                money = money + cf
 
                 print(f"Here is ${c-cf} in change.")
                 print("Here is your espresso \u2615 .Enjoy!")
